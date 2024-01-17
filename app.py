@@ -12,6 +12,7 @@ def nome_do_programa():
     """
     print('SmallCON')
 
+
 def opcoes():
     """
     Mostra para o usuário as opções do menu.
@@ -144,6 +145,7 @@ def main():
     nome_do_programa()
     opcoes()
     decisao()
+
 
 def cadastrar_novo_restaurante():
     """
@@ -289,6 +291,7 @@ def verifica_restaurante():
         volta_menu()
 
 
+
 def acha_index_restaurante(arg):
     """
     Acha o index do restaurante
@@ -302,6 +305,7 @@ def acha_index_restaurante(arg):
     info = restaurantes.index(arg)
     return info
 
+
 def existe_restaurantes():
     """
     Verifica se existem restaurantes na variável restaurante
@@ -312,6 +316,7 @@ def existe_restaurantes():
     """
     existe = len(restaurantes) >= 1
     return existe
+
 
 def volta_menu():
     """
