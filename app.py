@@ -12,8 +12,7 @@ def nome_do_programa():
     """
     print('SmallCON')
 
-
-def opcoes():
+def opcoes():   
     """
     Mostra para o usuário as opções do menu.
     """
@@ -44,7 +43,6 @@ def finalizar_app():
     """
     os.system('cls')
     print('Fechando o app\n')
-    print()
 
 def mensagem_de_erro(erro):
     """
@@ -289,8 +287,6 @@ def verifica_restaurante():
     else:
         mensagem_de_erro(5)
         volta_menu()
-
-
 
 def acha_index_restaurante(arg):
     """
